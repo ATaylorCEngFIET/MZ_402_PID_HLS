@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'error_prev' is power-on initialization." projectName="pid" solutionName="solution1" date="2021-07-19T21:41:31.865+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'i_prev' is power-on initialization." projectName="pid" solutionName="solution1" date="2021-07-19T21:41:31.852+0100" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low." projectName="pid" solutionName="solution1" date="2021-07-19T21:41:31.766+0100" type="Warning"/>
+        <logs message="WARNING: [HLS 207-5528] Ignore interface attribute or pragma which is not used in top function: pid.cpp:15:9" projectName="pid" solutionName="solution1" date="2021-07-19T21:41:24.992+0100" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'PID_fmul_32ns_32ns_32_4_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pid" solutionName="solution1" date="2021-07-19T21:57:59.821+0100" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'PID_fdiv_32ns_32ns_32_16_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pid" solutionName="solution1" date="2021-07-19T21:57:57.820+0100" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'PID_fcmp_32ns_32ns_1_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pid" solutionName="solution1" date="2021-07-19T21:57:53.819+0100" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'PID_faddfsub_32ns_32ns_32_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;" projectName="pid" solutionName="solution1" date="2021-07-19T21:57:49.817+0100" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

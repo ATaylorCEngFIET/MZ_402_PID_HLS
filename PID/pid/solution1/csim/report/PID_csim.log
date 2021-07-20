@@ -1,0 +1,89 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../tb_pid.cpp in debug mode
+   Compiling ../../../../pid.cpp in debug mode
+   Generating csim.exe
+testing cpp
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 40.000000 
+
+result 26.409496 
+
+result 16.653770 
+
+result 8.940825 
+
+result 4.142334 
+
+result 1.849484 
+
+result 1.346036 
+
+result 1.758121 
+
+result 2.462662 
+
+result 3.145534 
+
+result 3.601968 
+
+result 3.877658 
+
+result 4.006375 
+
+result 3.981114 
+
+result 3.928954 
+
+result 3.888478 
+
+result 3.849134 
+
+result 3.820193 
+
+result 3.810923 
+
+result 3.801653 
+
+result 3.792383 
+
+result 3.812055 
+
+result 3.812055 
+
+result 3.812055 
+
+result 3.812055 
+
+result 3.812055 
+
+result 3.812055 
+
+result 3.812055 
+
+result 3.783113 
+
+result 3.802785 
+
+result 3.831727 
+
+result 3.812055 
+
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pid.h" path="C:\HLS\PID\pid.h"/>
+    <originFiles name="pid.cpp" path="C:\HLS\PID\pid.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_pid.cpp" path="C:\HLS\PID\tb_pid.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

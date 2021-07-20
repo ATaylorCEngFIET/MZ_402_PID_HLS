@@ -1,0 +1,16 @@
+# ==============================================================
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2021.1 (64-bit)
+# Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+# ==============================================================
+OPTION psf_version = 2.1;
+
+BEGIN driver PID
+
+ OPTION supported_peripherals = (PID_v1_0 );
+ OPTION driver_state = ACTIVE;
+ OPTION copyfiles = all;
+ OPTION name = PID;
+ OPTION version = 1.0;
+
+END driver
+

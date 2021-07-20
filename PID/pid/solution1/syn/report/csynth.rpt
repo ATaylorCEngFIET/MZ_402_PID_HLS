@@ -1,0 +1,82 @@
+
+
+================================================================
+== Synthesis Summary Report of 'PID'
+================================================================
++ General Information: 
+    * Date:           Mon Jul 19 21:41:32 2021
+    * Version:        2021.1 (Build 3247384 on Thu Jun 10 19:36:33 MDT 2021)
+    * Project:        pid
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z007s-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------+--------+-------+---------+---------+----------+---------+------+----------+------+---------+-----------+------------+-----+
+    | Modules|  Issue |       | Latency | Latency | Iteration|         | Trip |          |      |         |           |            |     |
+    | & Loops|  Type  | Slack | (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP   |     FF    |     LUT    | URAM|
+    +--------+--------+-------+---------+---------+----------+---------+------+----------+------+---------+-----------+------------+-----+
+    |+ PID   |  Timing|  -1.12|       38|  380.000|         -|       39|     -|        no|     -|  8 (12%)|  1345 (4%)|  1945 (13%)|    -|
+    +--------+--------+-------+---------+---------+----------+---------+------+----------+------+---------+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* S_AXILITE
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 7             | 24     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-----------+-----------+----------+
+| Argument  | Direction | Datatype |
++-----------+-----------+----------+
+| set_point | in        | float    |
+| KP        | in        | float    |
+| KI        | in        | float    |
+| KD        | in        | float    |
+| sample    | in        | float    |
+| ts        | in        | float    |
+| pmax      | in        | float    |
+| return    | out       | float    |
++-----------+-----------+----------+
+
+* SW-to-HW Mapping
++-----------+-------------------------+----------+-----------------------+
+| Argument  | HW Name                 | HW Type  | HW Info               |
++-----------+-------------------------+----------+-----------------------+
+| set_point | s_axi_control set_point | register | offset=0x18, range=32 |
+| KP        | s_axi_control KP        | register | offset=0x20, range=32 |
+| KI        | s_axi_control KI        | register | offset=0x28, range=32 |
+| KD        | s_axi_control KD        | register | offset=0x30, range=32 |
+| sample    | s_axi_control sample    | register | offset=0x38, range=32 |
+| ts        | s_axi_control ts        | register | offset=0x40, range=32 |
+| pmax      | s_axi_control pmax      | register | offset=0x48, range=32 |
+| return    | s_axi_control ap_return | register | offset=0x10, range=32 |
++-----------+-------------------------+----------+-----------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+

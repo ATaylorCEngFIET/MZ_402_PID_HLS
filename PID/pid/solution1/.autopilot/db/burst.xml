@@ -1,0 +1,7 @@
+<VitisHLS:BurstInfo>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="pid.cpp:34:10" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by _ZL6i_prev" ID="bb1.store.0" VarName="_ZL6i_prev"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="pid.cpp:25:6" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by _ZL6i_prev" ID="bb0.load.19" VarName="_ZL6i_prev"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="pid.cpp:26:21" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by _ZL10error_prev" ID="bb0.load.24" VarName="_ZL10error_prev"/>
+    <burst group="BURST_VERBOSE_MISSED" fe_name="UnknownUnderlyingObjectMissed" src_info="pid.cpp:29:13" msg_id="214-117" msg_severity="INFO" msg_body="Cannot find or modify the underlying object pointed by _ZL10error_prev" ID="bb0.store.32" VarName="_ZL10error_prev"/>
+</VitisHLS:BurstInfo>
+

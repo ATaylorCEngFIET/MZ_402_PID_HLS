@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fsub" ID="" IMPL="fulldsp" LATENCY="4" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U1" SOURCE="pid.cpp:22" VARIABLE="error" MODULE="PID" LOOP="" DSP="2" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fmul" ID="" IMPL="maxdsp" LATENCY="3" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U2" SOURCE="pid.cpp:24" VARIABLE="p" MODULE="PID" LOOP="" DSP="3" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fmul" ID="" IMPL="maxdsp" LATENCY="3" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U3" SOURCE="pid.cpp:25" VARIABLE="mul1" MODULE="PID" LOOP="" DSP="3" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fmul" ID="" IMPL="maxdsp" LATENCY="3" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U2" SOURCE="pid.cpp:25" VARIABLE="mul2" MODULE="PID" LOOP="" DSP="3" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fsub" ID="" IMPL="fulldsp" LATENCY="4" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U1" SOURCE="pid.cpp:25" VARIABLE="i" MODULE="PID" LOOP="" DSP="2" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fsub" ID="" IMPL="fulldsp" LATENCY="4" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U1" SOURCE="pid.cpp:26" VARIABLE="sub3" MODULE="PID" LOOP="" DSP="2" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fdiv" ID="" IMPL="fabric" LATENCY="15" OPTYPE="fdiv" PRAGMA="" RTLNAME="fdiv_32ns_32ns_32_16_no_dsp_1_U4" SOURCE="pid.cpp:26" VARIABLE="div" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fmul" ID="" IMPL="maxdsp" LATENCY="3" OPTYPE="fmul" PRAGMA="" RTLNAME="fmul_32ns_32ns_32_4_max_dsp_1_U2" SOURCE="pid.cpp:26" VARIABLE="d" MODULE="PID" LOOP="" DSP="3" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fsub" ID="" IMPL="fulldsp" LATENCY="4" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U1" SOURCE="pid.cpp:28" VARIABLE="add5" MODULE="PID" LOOP="" DSP="2" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fsub" ID="" IMPL="fulldsp" LATENCY="4" OPTYPE="fsub" PRAGMA="" RTLNAME="faddfsub_32ns_32ns_32_5_full_dsp_1_U1" SOURCE="pid.cpp:28" VARIABLE="op" MODULE="PID" LOOP="" DSP="2" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln30_fu_204_p2" SOURCE="pid.cpp:30" VARIABLE="icmp_ln30" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln30_1_fu_210_p2" SOURCE="pid.cpp:30" VARIABLE="icmp_ln30_1" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op or" ID="" IMPL="auto" LATENCY="0" OPTYPE="or" PRAGMA="" RTLNAME="or_ln30_fu_216_p2" SOURCE="pid.cpp:30" VARIABLE="or_ln30" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln30_2_fu_222_p2" SOURCE="pid.cpp:30" VARIABLE="icmp_ln30_2" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op icmp" ID="" IMPL="auto" LATENCY="0" OPTYPE="icmp" PRAGMA="" RTLNAME="icmp_ln30_3_fu_228_p2" SOURCE="pid.cpp:30" VARIABLE="icmp_ln30_3" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op or" ID="" IMPL="auto" LATENCY="0" OPTYPE="or" PRAGMA="" RTLNAME="or_ln30_1_fu_234_p2" SOURCE="pid.cpp:30" VARIABLE="or_ln30_1" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op and" ID="" IMPL="auto" LATENCY="0" OPTYPE="and" PRAGMA="" RTLNAME="and_ln30_fu_240_p2" SOURCE="pid.cpp:30" VARIABLE="and_ln30" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op fcmp" ID="" IMPL="auto" LATENCY="1" OPTYPE="fcmp" PRAGMA="" RTLNAME="fcmp_32ns_32ns_1_2_no_dsp_1_U5" SOURCE="pid.cpp:30" VARIABLE="tmp_2" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op and" ID="" IMPL="auto" LATENCY="0" OPTYPE="and" PRAGMA="" RTLNAME="and_ln30_1_fu_246_p2" SOURCE="pid.cpp:30" VARIABLE="and_ln30_1" MODULE="PID" LOOP="" DSP="0" BRAM="0" URAM="0"/>
+</BindInfo>
